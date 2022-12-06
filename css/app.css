@@ -3,6 +3,9 @@
 	padding: 0;
 	margin: 0;
 } */
+*{
+    font-family: 'Poppins', sans-serif;
+  }
 
 .logo{
     vertical-align: middle;
@@ -31,10 +34,18 @@ body{
     padding-bottom: 25px;
     max-width: 900px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
+    
 }
 
 .pulsanti{
+    margin: 0 auto;
+    margin-bottom: 2px;
+    padding-left: 45px;
+    padding-bottom: 25px;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -58,8 +69,6 @@ body{
   }
 
 
-
-
 .liste{
     display: inline-block;
 }
@@ -78,8 +87,22 @@ body{
     background-color: #9C73E3;
 }
 
+.recruiting{
+    background-color: #63C0A9;
+}
+
+.mobile{
+    background-color: #F29F33;
+}
+
 .check{
     color: #73C6B1;
+    border: solid 2px;
+    border-radius: 50%;
+}
+
+.uncheck{
+    color: #E7433B;
     border: solid 2px;
     border-radius: 50%;
 }
