@@ -4,6 +4,11 @@
 	margin: 0;
 } */
 
+.logo{
+    vertical-align: middle;
+
+}
+
 .logo-text{
     display: inline-block;
     vertical-align: middle;
@@ -32,8 +37,26 @@ body{
 .pulsanti{
     padding-top: 15px;
     padding-bottom: 15px;
-    
 }
+
+.add {
+    border-radius: 5px; 
+    padding: 10px;
+  }
+
+  .task{
+    color: #fff;
+    background-color: #46ADF1;
+    border: none; 
+  }
+
+  .section{
+    color: #DFE3E6;
+    background-color: #ffffff;
+    border: solid 1px #DFE3E6  
+
+  }
+
 
 
 
