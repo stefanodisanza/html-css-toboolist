@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.logo-text{
+    display: inline-block;
+}
+
+.main-header{
+    background-color: white;
+
+}
+
+body{
+    background-color: #F5F8F9;
+}
+
+.container{
+    margin: auto;
+    max-width: 900px;
+    background-color: white;
+}
+
+hr{
+    max-width: 900px;
+    
+}
+
+.liste{
+    display: inline-block;
+}
+
+.category{
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.editorial{
+    background-color: #45ABE9;
+}
+
+.fatto{
+    color: #73C6B1;
+}
