@@ -10,6 +10,7 @@
 
 .main-header{
     background-color: white;
+    margin-bottom: 40px;
 
 }
 
@@ -19,8 +20,16 @@ body{
 
 .container{
     margin: auto;
+    padding-left: 45px;
     max-width: 900px;
     background-color: white;
+    border-radius: 10px;
+}
+
+.pulsanti{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
 }
 
 hr{
@@ -42,6 +51,12 @@ hr{
     background-color: #45ABE9;
 }
 
-.fatto{
+.goals{
+    background-color: #9C73E3;
+}
+
+.check{
     color: #73C6B1;
+    border: solid 2px;
+    border-radius: 50%;
 }
