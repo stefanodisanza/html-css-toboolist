@@ -19,6 +19,8 @@
 
 .main-header{
     background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 25px;
     margin-bottom: 40px;
 
@@ -79,6 +81,8 @@ body{
     color: white;
     padding: 5px;
     border-radius: 10px;
+    display: inline-block;
+    text-align: center;
 }
 
 .editorial{
@@ -127,8 +131,12 @@ body{
     text-align: center;
 }
 
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+
+  li{
+    margin: 5px;
   }
