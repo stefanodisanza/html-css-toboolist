@@ -1,15 +1,17 @@
-* {
+/* * {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-}
+} */
 
 .logo-text{
     display: inline-block;
+    vertical-align: middle;
 }
 
 .main-header{
     background-color: white;
+    padding-left: 25px;
     margin-bottom: 40px;
 
 }
@@ -19,8 +21,9 @@ body{
 }
 
 .container{
-    margin: auto;
+    margin: 0 auto;
     padding-left: 45px;
+    padding-bottom: 25px;
     max-width: 900px;
     background-color: white;
     border-radius: 10px;
@@ -32,10 +35,7 @@ body{
     
 }
 
-hr{
-    max-width: 900px;
-    
-}
+
 
 .liste{
     display: inline-block;
